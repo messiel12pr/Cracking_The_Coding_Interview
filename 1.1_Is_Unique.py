@@ -2,7 +2,6 @@
 # What if you cannot use additional data structurs?
 
 # O(n log(n)) Time Complexity, O(1) Space Complexity approach
-
 def is_Unique(str_1: str) -> bool:
     str_1 = sorted(str_1)
 

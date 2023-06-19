@@ -7,6 +7,7 @@
 # Input:    "Mr John Smith    "
 # Output:   "Mr%20John%20Smith"
 
+# O(n) Time Complexity Two Pointer approach
 def urlify(str_1: str) -> str:
     r = l = len(str_1)-1
     str_list = list(str_1) 

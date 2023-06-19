@@ -1,5 +1,6 @@
 # Given two strings, write a method to decide if one is a permutation of the other
 
+# O(n) approach
 def check_permutation(str_1: str, str_2: str) -> bool:
     arr = [0] * 128
 
