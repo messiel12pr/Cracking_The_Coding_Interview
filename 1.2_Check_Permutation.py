@@ -16,7 +16,12 @@ def check_permutation(str_1: str, str_2: str) -> bool:
         
     return True
 
-str_1 = 'hola mi pana'
-str_2 = 'anap im aloh'
+str_1 = 'the cat in the hat @ 123!'
+str_2 = '!321 @ tah eht ni tac eht'
 
-print(check_permutation(str_1, str_2))
+print('Are ' + str_1 + ' and ' + str_2 + ' permutations? ' + str(check_permutation(str_1, str_2)))
+
+str_1 = 'Hello World@'
+str_2 = 'Hello World!'
+
+print('Are ' + str_1 + ' and ' + str_2 + ' permutations? ' + str(check_permutation(str_1, str_2)))
